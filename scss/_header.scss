@@ -1,0 +1,48 @@
+
+
+/* --------------------------------- Header --------------------------------- */
+
+header {
+display: flex;
+width:100%;
+padding: 1%;
+align-items: center;
+background-color: #FBD9F4; 
+justify-content: space-between;
+align-items: center;
+}
+
+
+/* --------------------------------- navbar --------------------------------- */
+
+
+.navbar{
+width: 100%;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+font-weight: 500;
+}
+
+
+.navbar-item a{
+color: $colortext;
+font-size: 1.1em;
+text-decoration: none;
+font-weight: 600;
+}
+
+
+.navbar-item a:link {
+color: $colortext;
+}
+
+.navbar-item a:visited {
+color: $colortext;
+}
+.navbar a:hover{
+    color:$secundario;
+    cursor:pointer;
+    transition:all 0.5s  ease;
+}
+

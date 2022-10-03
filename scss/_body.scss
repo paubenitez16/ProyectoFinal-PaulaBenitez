@@ -1,0 +1,156 @@
+/* ------------------------------- Bienvenida ------------------------------- */
+
+main {
+display: flex;
+width: 100%;
+}
+main section h1 {
+font-size: 5.5em;
+color: $colortext;
+}
+main section h1 p {
+font-size: 1.25em;
+color: #1a2d2d;
+text-align: center;
+}
+
+.text-main{
+    color:white;
+    font-size: 2rem;
+}
+
+#bienvenida {
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+height: 90vh;
+background-image: url(../images/main.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#bienvenida h1 {
+color: $primario;
+}
+.principal{
+    color:$acento;
+}
+/* -------------------------------- Sobre mi -------------------------------- */
+
+#sobre-mi {
+padding: 3%;
+background-color: $backgroundcolor;
+
+}
+.text-sobremi{
+    text-align: left;
+font-family:$tipografiaSecundaria ;
+}
+
+
+/* -------------------------------- Portfolio ------------------------------- */
+
+.mi-portfolio {
+background-color: $backgroundcolor;
+color: #e5e4e9;
+padding: 3%;
+}
+
+.mi-portfolio h2 {
+font-size: 2.7rem;
+}
+
+/* -------------------------------- Proyectos ------------------------------- */
+
+#proyecto-dm {
+background-color: $backgroundcolor;
+padding: 4%;
+}
+
+/* -------------------------------- Conctacto ------------------------------- */
+
+#contacto {
+display: flex;
+flex-direction: column;
+background-image: url(/Images/Recurso1.svg);
+background-size: cover;
+color: $colortext;
+padding: 4%;
+}
+
+/* -------------------------------- pagina sobre mi -------------------------------- */
+
+#hobbies{
+    background-color: $backgroundcolor;
+    padding: 3%;
+}
+.mis-hobbies{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* --------------------------- pagina de portfolio -------------------------- */
+.pages{
+    padding: 6%;
+    background-color: $primario;
+    background-image: url('../images/bg-gradiente.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedorcards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    flex-wrap: wrap;
+
+    .cardportfolio{
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 30%;
+        box-shadow:3px 3px 20px #634e5a;
+    }
+}
+.imgcard{
+    width:300px;
+}
+
+/* -------------------------- pagina de proyecto DM ------------------------- */
+.proyectoDMpages {
+    background-color: $backgroundcolor;
+    color: #e5e4e9;
+    padding: 2%;
+    }
+.card__img{
+    width: 48px;
+    height: auto;
+
+}
+.containerservicios{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+.cardservicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    margin: 1%;
+}
+.card__title{
+    margin: 5%;
+}
+
+/* --------------------------- Pagina de contacto --------------------------- */
+.contacto{
+    width: 100%;
+}

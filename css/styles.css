@@ -1,0 +1,409 @@
+/* -------------------------------- variables ------------------------------- */
+/* ---------------------------- Estilos globales ---------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif; }
+
+/* --------------------------------- import --------------------------------- */
+/* --------------------------------- Header --------------------------------- */
+header {
+  display: flex;
+  width: 100%;
+  padding: 1%;
+  align-items: center;
+  background-color: #FBD9F4;
+  justify-content: space-between;
+  align-items: center; }
+
+/* --------------------------------- navbar --------------------------------- */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 500; }
+
+.navbar-item a {
+  color: #252525;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: 600; }
+
+.navbar-item a:link {
+  color: #252525; }
+
+.navbar-item a:visited {
+  color: #252525; }
+
+.navbar a:hover {
+  color: #da0b84;
+  cursor: pointer;
+  transition: all 0.5s  ease; }
+
+/* ------------------------------- Bienvenida ------------------------------- */
+main {
+  display: flex;
+  width: 100%; }
+
+main section h1 {
+  font-size: 5.5em;
+  color: #252525; }
+
+main section h1 p {
+  font-size: 1.25em;
+  color: #1a2d2d;
+  text-align: center; }
+
+.text-main {
+  color: white;
+  font-size: 2rem; }
+
+#bienvenida {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: url(../images/main.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#bienvenida h1 {
+  color: #ffc8ea; }
+
+.principal {
+  color: #c8ffdd; }
+
+/* -------------------------------- Sobre mi -------------------------------- */
+#sobre-mi {
+  padding: 3%;
+  background-color: #f6ffe9; }
+
+.text-sobremi {
+  text-align: left;
+  font-family: "Poppins", sans-serif; }
+
+/* -------------------------------- Portfolio ------------------------------- */
+.mi-portfolio {
+  background-color: #f6ffe9;
+  color: #e5e4e9;
+  padding: 3%; }
+
+.mi-portfolio h2 {
+  font-size: 2.7rem; }
+
+/* -------------------------------- Proyectos ------------------------------- */
+#proyecto-dm {
+  background-color: #f6ffe9;
+  padding: 4%; }
+
+/* -------------------------------- Conctacto ------------------------------- */
+#contacto {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/Images/Recurso1.svg);
+  background-size: cover;
+  color: #252525;
+  padding: 4%; }
+
+/* -------------------------------- pagina sobre mi -------------------------------- */
+#hobbies {
+  background-color: #f6ffe9;
+  padding: 3%; }
+
+.mis-hobbies {
+  margin: 2%;
+  display: flex;
+  justify-content: space-around; }
+
+/* --------------------------- pagina de portfolio -------------------------- */
+.pages {
+  padding: 6%;
+  background-color: #ffc8ea;
+  background-image: url("../images/bg-gradiente.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contenedorcards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  flex-wrap: wrap; }
+  .contenedorcards .cardportfolio {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    box-shadow: 3px 3px 20px #634e5a; }
+
+.imgcard {
+  width: 300px; }
+
+/* -------------------------- pagina de proyecto DM ------------------------- */
+.proyectoDMpages {
+  background-color: #f6ffe9;
+  color: #e5e4e9;
+  padding: 2%; }
+
+.card__img {
+  width: 48px;
+  height: auto; }
+
+.containerservicios {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  flex-wrap: wrap; }
+
+.cardservicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1%;
+  margin: 1%; }
+
+.card__title {
+  margin: 5%; }
+
+/* --------------------------- Pagina de contacto --------------------------- */
+.contacto {
+  width: 100%; }
+
+/* ---------------------------- carrousel y cards --------------------------- */
+.card {
+  padding: 1%;
+  width: 22rem;
+  box-shadow: 3px 3px 30px #bcc9c9; }
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s  ease; }
+
+.container {
+  max-width: 1400px;
+  margin: auto; }
+
+.carousel1 {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.carousel2 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* ------------------------------- formulario ------------------------------- */
+.form {
+  margin-top: 2%;
+  display: flex;
+  opacity: 0.9;
+  width: 50%;
+  flex-direction: column;
+  text-align: left;
+  background-color: white;
+  padding: 4%;
+  border: 100px; }
+  .form label {
+    font-weight: 500; }
+
+form {
+  display: flex;
+  flex-direction: column; }
+
+.btn {
+  background-color: #da0b84;
+  border-color: #da0b84;
+  color: white;
+  font-weight: 700; }
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 1%; }
+
+/* --------------------------- estilos tipografia --------------------------- */
+span {
+  font-family: "Bebas Neue", cursive; }
+
+h1 {
+  font-size: 5.5em;
+  color: #da0b84;
+  font-family: "Bebas Neue", cursive; }
+
+h2 {
+  font-size: 2.7em;
+  color: #252525;
+  text-align: left;
+  font-family: "Bebas Neue", cursive; }
+
+h3 {
+  font-size: 2em;
+  color: #252525;
+  font-family: "Bebas Neue", cursive; }
+
+p {
+  font-size: 1em;
+  color: #252525; }
+
+p.logo {
+  background-image: url(/Images/p.png); }
+
+h5 {
+  color: #252525; }
+
+.color-acento {
+  color: #da0b84; }
+
+/* --------------------------------- Footer --------------------------------- */
+footer {
+  text-align: center;
+  padding: 2%;
+  font-style: italic;
+  background-color: #ffc8ea; }
+
+article {
+  display: flex;
+  justify-content: center; }
+  article ul {
+    display: flex;
+    justify-content: center; }
+    article ul li {
+      padding: 10%;
+      color: #252525;
+      font-size: 32px; }
+      article ul li i {
+        color: #da0b84; }
+
+footer p {
+  margin: 0%;
+  color: black;
+  padding: 12px; }
+
+footer.container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* ------------------------------- Responsive ------------------------------- */
+@media (max-width: 1270px) {
+  .containerservicios {
+    justify-content: space-around; } }
+
+@media (max-width: 1250px) {
+  .contenedorcards {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+    .contenedorcards .cardportfolio {
+      display: flex;
+      width: 30rem; }
+      .contenedorcards .cardportfolio .imgcard {
+        width: 100%; } }
+
+@media (max-width: 1150px) {
+  .mis-hobbies .card {
+    width: 18rem; } }
+
+@media (max-width: 1100px) {
+  .card {
+    width: 18rem; }
+  .carousel1 {
+    width: 50%; }
+  #contacto {
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center; }
+  .contenedor {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .form {
+    width: 80%;
+    padding: 4%; } }
+
+@media (max-width: 1030px) {
+  .mis-hobbies {
+    flex-wrap: wrap; }
+    .mis-hobbies .card {
+      width: 22rem;
+      margin: 2%; } }
+
+@media (max-width: 930px) {
+  .mi-portfolio {
+    display: flex;
+    flex-direction: column; }
+    .mi-portfolio .servicios {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column; }
+      .mi-portfolio .servicios .row {
+        flex-direction: column; }
+  .carousel1 {
+    width: 70%; }
+  .card {
+    margin: 2%;
+    width: 25rem; }
+  .containerservicios {
+    align-items: center;
+    justify-content: center; } }
+
+@media (max-width: 620px) {
+  h1 {
+    font-size: 4.5rem; }
+  .text-main {
+    font-size: 1.8rem; }
+  header {
+    justify-content: space-between; } }
+
+@media (max-width: 620px) {
+  .card {
+    margin: 2%;
+    width: 20rem; }
+  h2 {
+    font-size: 2rem; }
+    h2 .textportfolio {
+      font-size: 2rem; }
+  .form {
+    width: 99%;
+    padding: 4%; } }
+
+@media (max-width: 580px) {
+  .contenedorcards {
+    width: 100%; }
+    .contenedorcards .cardportfolio {
+      display: flex;
+      width: 22rem; }
+      .contenedorcards .cardportfolio .imgcard {
+        width: 100%; } }
+
+@media (max-width: 422) {
+  * {
+    width: 100%; } }
+
+@media (max-width: 340) {
+  * {
+    width: 100%; }
+  header {
+    justify-content: space-around; }
+  h1 {
+    font-size: 2rem; }
+  .card {
+    width: 15rem; }
+  .form {
+    width: 90%;
+    padding: 4%; } }

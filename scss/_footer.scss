@@ -1,0 +1,36 @@
+/* --------------------------------- Footer --------------------------------- */
+
+footer {
+text-align: center;
+padding:2%;
+font-style: italic;
+background-color: $primario; }
+
+
+article{
+    display: flex;
+    justify-content: center;
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            padding: 10%;
+            color: $colortext;
+            font-size: 32px;
+            i{
+                color: $secundario;
+            }
+        }
+    }
+}
+
+footer p {
+margin: 0%;
+color: black;
+padding: 12px; }
+
+footer.container {
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: center; }
